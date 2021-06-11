@@ -2,12 +2,28 @@
 <meta charset="UTF-8">
 <html>
 <head>
-
-<title></title>
+<link rel="stylesheet" href="style.css">
+<title>RPS game!</title>
 
 </head>
-<body>
-<script src="RPSscript.js"></script>
+<div id="prompt">
+    ROCK! PAPER! SCISORS!
+    Click a button. Good luck!
+</div>
+
+<body style="background-color: darkslategrey;">
+<div class = "buttons">
+    <button id = "rock" class = "buttonSpacing">Rock</button>
+    <button id = "paper" class = "buttonSpacing">Paper</button>
+    <button id= "scissors" class = "buttonSpacing">Scissors</button>
+</div>
+<div class="Message"></div>
+
+<div class = "reset">
+    <button id ="reset">Reset!</button>
+</div>
+
 </body>
 
+<script src="RPSScriptUpdate.js"></script>
 </html>

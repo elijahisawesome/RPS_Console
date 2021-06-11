@@ -1,0 +1,68 @@
+
+.reset{
+    visibility: hidden;
+    display: flex;
+    flex-direction: row;
+}
+#prompt{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+    font-weight: 400;
+}
+.Message{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+    font-weight: 400;
+}
+#reset{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: pink;
+    border-radius: 30%;
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 0px 10px lightpink;
+    color: darkorange;
+    transition:ease-in;
+}
+
+#reset:hover{
+    border-style: solid;
+    border-color: grey;
+}
+
+.visible{
+    visibility: visible;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.buttonSpacing{
+    text-align: center;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: pink;
+    border-radius: 30%;
+    border-style: none;
+    box-shadow: 0px 0px 10px lightpink;
+    color: darkorange;
+
+}
+.buttonSpacing:hover{
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    padding: 39px;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
