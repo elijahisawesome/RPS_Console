@@ -1,2 +1,2 @@
 # RPS_Console
-console based RPS game
+GUI based RPS game
